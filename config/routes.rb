@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   get "grid", to: "pages#grid"
   get "card", to: "pages#card"
+  get "button", to: "pages#button"
 end
