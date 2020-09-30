@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  skip_before_action :authenticate_user!, only: [ :home, :grid, :card]
+  skip_before_action :authenticate_user!, only: [ :home, :grid, :card, :button]
 
   def home
   end
@@ -8,6 +8,9 @@ class PagesController < ApplicationController
   end
 
   def card
+  end
+
+  def button
   end
 
 end
